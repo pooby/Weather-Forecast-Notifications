@@ -6,7 +6,7 @@ from datetime import datetime
 import time
 
 URL_FIVE_DAY_WEATHER = "https://api.openweathermap.org/data/2.5/forecast?q="
-API_KEY = "XXXX_your api key goes here_XXXX" #See: https://openweathermap.org/api for moe information      
+API_KEY = "XXXX_your api key goes here_XXXX" #See: https://openweathermap.org/api for more information      
 CITY = "Seattle"
 
 def sendForecast():
