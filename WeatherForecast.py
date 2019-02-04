@@ -5,12 +5,12 @@ import boto3
 from datetime import datetime
 import time
 
-URL_START_CURRRENT_WEATHER = "https://api.openweathermap.org/data/2.5/forecast?q="
+URL_FIVE_DAY_WEATHER = "https://api.openweathermap.org/data/2.5/forecast?q="
 API_KEY = "XXXX_your api key goes here_XXXX" #See: https://openweathermap.org/api for moe information      
 CITY = "Seattle"
 
 def sendForecast():
-    url = URL_START_CURRRENT_WEATHER + CITY + API_KEY
+    url = URL_FIVE_DAY_WEATHER + CITY + API_KEY
     try:
         html = urlopen(url)
     except urllib.error.HTTPError as err:
