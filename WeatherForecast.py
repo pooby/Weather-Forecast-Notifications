@@ -55,15 +55,3 @@ starttime=time.time()
 while True:
   sendForecast()
   time.sleep(604800.0 - ((time.time() - starttime) % 604800.0))
-   
-
-
-
-
-
-
-
-
-
-
-
