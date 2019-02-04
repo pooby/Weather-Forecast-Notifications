@@ -6,7 +6,7 @@ WeatherForecast.py is script that polls [OpenWeather](https://openweathermap.org
 Parses the JSON result for:
 general weather info (rain, snow), temperature, humidity, and wind.
 
-Then, sends the results via AWS SNS.
+Then, sends the results via AWS SNS to any subscribers.
 
 ## Setup:
 Requires:
