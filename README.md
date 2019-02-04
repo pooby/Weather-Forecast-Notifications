@@ -1,4 +1,4 @@
-# Weather-Forecast-Notifier
+# Weather-Forecast-Notifications
 Provides weather forecast updates through AWS SNS
 
 WeatherForecast.py is script that polls [OpenWeather](https://openweathermap.org/api/) to retrieve a 5-day forecast. 
